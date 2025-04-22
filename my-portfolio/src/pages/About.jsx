@@ -5,7 +5,7 @@ function About() {
     <div className="about">
       <h2>About Me</h2>
       <div className="about-content">
-        <img src='/headshot.jpg' alt='Tommy Fernandez headshot'></img>
+        <img src={`${import.meta.env.BASE_URL}headshot.jpg`} alt="Tommy Fernandez headshot" />
         <p>My name is Tommy Fernandez, and I am currently studying 
           Digital Media with a focus in Web Design at the University 
           of Central Florida in Orlando.

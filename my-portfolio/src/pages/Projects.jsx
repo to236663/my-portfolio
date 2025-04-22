@@ -1,4 +1,4 @@
-import '../styles/Projects.css';
+import '../styles/Projects.css'; 
 
 function Projects() {
     const projectsList = [
@@ -17,7 +17,7 @@ function Projects() {
         {
             title: 'Marvel Rivals Character Randomizer',
             description: 'A site that randomly generates a character for you to play based on the character roster of the hit game Marvel Rivals. Created with HTML, CSS, and JavaScript.',
-            image: '/rivals_randomizer.png',
+            image: `${import.meta.env.BASE_URL}rivals_randomizer.png`,
             link: 'https://students.gaim.ucf.edu/~to236663/dig3716c/rivalsrandomizer/rivalsprogram/rivals.html',
         }
     ];
