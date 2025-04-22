@@ -1,0 +1,25 @@
+.home {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #333;
+}
+  
+.welcome {
+    background-image: url('/portfolio_bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 4rem;
+    text-align: center;
+    color: #fff;
+}
+  
+.welcome h1 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+  
+.welcome p {
+    font-size: 1.25rem;
+    margin: 30px;
+}
+  
